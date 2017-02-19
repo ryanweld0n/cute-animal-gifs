@@ -1,4 +1,4 @@
-# giphyAPISearchEngine
+# Kittens & Puppies
 An app written in Angular and TypeScript that searches for kitten or puppy GIFs and displays the paginated results.
 
 ## Install

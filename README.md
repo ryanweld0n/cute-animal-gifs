@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cute-animal-gifs/public/images/screengrab.png" width="350" height="350" />
+  <img src="./public/images/screengrab.png" width="350" height="350" />
 </p>
 # Kittens & Puppies
 An app written in Angular and TypeScript that searches for kitten or puppy GIFs and displays the paginated results.

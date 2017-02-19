@@ -1,6 +1,4 @@
-<p align="center">
-  ![My image](ryanweld0n.github.com/cute-animal-gifs/public/images/screengrab.png)
-</p>
+
 # Kittens & Puppies
 An app written in Angular and TypeScript that searches for kitten or puppy GIFs and displays the paginated results.
 

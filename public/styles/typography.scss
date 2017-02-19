@@ -1,0 +1,18 @@
+@import 'mixins';
+
+body, p, button, textarea, input, select, label{ font-size: 16px; }
+h1, h2, h3, h4, h5, h6, p, span, label, li, th, td{ color: $prussianBlue; }
+textarea, input, select { color:$prussianBlue; }
+a{ text-decoration: none; color: #fff; }
+
+body, h1, h2, h3, h4, h5, h6, p, li, a, input, textarea, select, button{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+h1 { font-size: 2.125em; }      // 34/16;
+h2 { font-size: 1.75em; }       // 28/16
+h3 { font-size: 1.375em; }      // 22/16
+h4 { font-size: 1em; }          // 16
+h5 { font-size: 0.75em; }       // 12/16
+h6 { font-size: 0.625em; }      // 10/16

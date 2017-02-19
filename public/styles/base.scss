@@ -1,0 +1,53 @@
+@import 'mixins';
+
+/******************************
+*  NORMALIZE
+*******************************/
+body, p, ul, ol, li, h1, h2, h3, h4, h5, h6, dl, dt, dd{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{ list-style-type: none; }
+dt, dd { display: inline-block; }
+em { font-weight: bold; font-style: normal; }
+img{ max-width: 100%; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after { clear: both; }
+
+/******************************
+*  BASIC STYLES
+*******************************/
+button, .btn, a, a:after, span { @include transition-mixin; }
+button, textarea, input, select, option { outline: none; }
+textarea, input, select { border: 1px solid $jordyBlue; }
+input, textarea { padding: 6px 10px; background-color: darken($lavender, 10%); }
+
+//page specific styles
+body { background: $lavender; }
+h1 { margin: 50px auto; }

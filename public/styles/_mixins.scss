@@ -1,0 +1,31 @@
+$prussianBlue: #0b0016;
+$christalle: #551966;
+$marguerite: #6e55a8;
+$jordyBlue: #80b3dd;
+$lavender: #e5ecfc;
+$meadow: #17a880;
+
+@mixin transition-mixin($t: 0.3s) {
+    -moz-transition: all $t ease;
+    -o-transition: all $t ease;
+    -webkit-transition: all $t ease;
+    transition: all $t ease;
+}
+
+@mixin clearfix-mixin{
+    &:after{ clear: both; }
+
+    &:before, &:after{
+        content: " ";
+        display: table;
+    }
+}
+
+@mixin calc-mixin($property, $value){
+    #{$property}: -webkit-calc(#{$value});
+    #{$property}: -moz-calc(#{$value});
+    #{$property}: calc(#{$value});
+}
+
+.right{ float: right; }
+.left{ float: left; }

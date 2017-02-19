@@ -1,0 +1,8 @@
+@import 'mixins';
+
+$pageWidth: 75em; // 1200/16px = 75em;
+
+.container {
+    margin: 0 auto;
+    max-width: $pageWidth;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Kittens-n-Puppies-GIF-Search",
+  "version": "0.0.1",
+  "description": "Kittens and Puppies Gif Search App",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "gif",
+    "kittens",
+    "puppies",
+    "angular",
+    "typescript",
+    "javascript"
+  ],
+  "author": "xavier glab",
+  "dependencies": {
+    "express": "4.13.4",
+    "gulp": "~3.9.1",
+    "gulp-sass": "~2.2.0",
+    "gulp-minify-css": "~1.2.3",
+    "gulp-concat": "~2.6.0",
+    "gulp-watch": "~4.3.5",
+    "gulp-uglify": "~1.5.2",
+    "gulp-typescript": "~2.11.0",
+    "karma": "~0.11.0",
+    "karma-jasmine": "",
+    "karma-chrome-launcher": "",
+    "karma-firefox-launcher": "",
+    "karma-coffee-preprocessor": "",
+    "karma-html2js-preprocessor": "",
+    "karma-phantomjs-launcher": "",
+    "karma-requirejs": "",
+    "karma-script-launcher": ""
+  }
+}

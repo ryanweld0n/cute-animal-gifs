@@ -1,0 +1,25 @@
+@import '../mixins';
+.pagination{
+
+    button, ul, li { float: left; }
+    button[disabled=disabled] { background: grey; }
+    ul { margin-left: 10px; }
+    li { margin-right: 10px; }
+    li:nth-child(3) { margin-right: 20px; }
+    li:nth-last-child(3) { margin-left: 20px; }
+
+    button{
+        cursor: pointer;
+        display: inline-block;
+        padding: 5px 8px;
+        background: lighten($marguerite, 20%);
+
+        &:hover{
+            background: lighten($marguerite, 10%);
+            text-decoration: none;
+            color: #fff;
+        }
+
+        &.active { background: $marguerite; }
+    }
+}
